@@ -14,10 +14,19 @@ public class Apriori {
 
   private ArrayList<Set<String>> frequentSet;
 
+  /**
+   * Initialization method to import dataset.
+   * @param dataSet The list of item set.
+   */
   Apriori(ArrayList<Set<String>> dataSet) {
     this.dataSet = dataSet;
   }
 
+  /**
+   * Get association rules according to the dataset imported.
+   * @param minSupport The minimum support
+   * @return List of association rules.
+   */
   public ArrayList<AssociationRule> getAssociationRules(double minSupport) {
     this.minSupport = minSupport;
     this.frequentSet = getFrequentSet();
