@@ -3,7 +3,7 @@ package org.zentorwie.datamining;
 import java.util.*;
 
 /**
- * The Java Implement of Apriori Algorithm for association rule mining.
+ * The Apriori Algorithm implemented in Java for association rule mining.
  * @author Dongyu Zeng
  * @version 1.1
  */
